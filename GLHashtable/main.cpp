@@ -10,5 +10,12 @@ int main(){
 
     hashObj.HASH("Sara");
 
+    hashObj.ajouterItem("Noureddine", "7697598698");
+    hashObj.ajouterItem("Noura", "7697598698");
+    hashObj.ajouterItem("Sara", "7697598698");
+
+    // affichage des elements du taleau
+    hashObj.afficherItem();
+
     return 0;
 }
