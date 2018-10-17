@@ -9,9 +9,16 @@ using namespace std;
 class hash1{
     private:
         static const int tailleTableau = 10;
+        struct item{
+            string nom;
+            string tel;
+            item* next;
+        };
+        item* HashTable[tailleTableau];
 
     public:
         int HASH(string key);
+        hash1();
 };
 
 

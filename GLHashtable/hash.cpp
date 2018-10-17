@@ -4,6 +4,14 @@
 
 using namespace std;
 
+hash1::hash1(){
+     for (int i = 0; i<tailleTableau; i++){
+        HashTable[i] = new item;
+        HashTable[i]->nom = "vide";
+        HashTable[i]->tel = "vide";
+        HashTable[i]->next = NULL;
+     }
+}
 
 int hash1::HASH(string key){
     int index;
