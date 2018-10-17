@@ -8,6 +8,7 @@ using namespace std;
 
 class hash1{
     private:
+        static const int tailleTableau = 10;
 
     public:
         int HASH(string key);

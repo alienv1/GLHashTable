@@ -8,7 +8,7 @@ int main(){
 
     hash1 hashObj;
 
-    hashObj.HASH("GLgl");
+    hashObj.HASH("Sara");
 
     return 0;
 }
