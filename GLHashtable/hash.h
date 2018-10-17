@@ -21,6 +21,14 @@ class hash1{
         hash1();
         void ajouterItem(string nom, string tel);
         void afficherItem();
+
+        //devoir : implementer les quatre fonctions suivantes
+
+
+        //int  nombreItems(int index);
+        //void afficherItemsDansIndex(int index); // les items qui ont le même resultat de hashage et qui sont empilés
+        //void chercherItem(string nom);
+        //void supprimerItem(string nom);
 };
 
 
